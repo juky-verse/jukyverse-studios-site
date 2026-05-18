@@ -187,7 +187,49 @@ export default function App() {
         </div>
         <Button href={linktree}>Enter JUKYVERSE</Button>
       </section>
+<section id="about" className="studio-section">
+  <p className="eyebrow">About JUKYVERSE</p>
+  <h2>Emotional music. Cinematic worlds. Timeless connection.</h2>
+  <p>
+    JUKYVERSE Studios creates emotional cinematic experiences through music,
+    visual storytelling, and universe-driven worldbuilding. Each release is
+    designed to feel intimate, immersive, and deeply human.
+  </p>
+</section>
 
+<section id="support" className="studio-section">
+  <p className="eyebrow">Support the Studio</p>
+  <h2>Help build the next chapter of JUKYVERSE.</h2>
+  <p>
+    Support helps fund new songs, cinematic visuals, lyric videos, TTCT
+    development, and future creative expansion.
+  </p>
+  <a href="https://linktr.ee/Jukyversestudios" target="_blank" rel="noreferrer" className="button primary">
+    Enter JUKYVERSE
+  </a>
+</section>
+
+<section id="ttct" className="studio-section">
+  <p className="eyebrow">TTCT Universe</p>
+  <h2>Through The Cracks of Time</h2>
+  <p>
+    An expanding cinematic universe exploring love, memory, sacrifice,
+    Displaced Realms, altered timelines, and the emotional cost of crossing
+    between worlds.
+  </p>
+</section>
+
+<section id="contact" className="studio-section">
+  <p className="eyebrow">Contact</p>
+  <h2>Commissions, collaborations, licensing, and investor inquiries.</h2>
+  <p>
+    For creative work, partnerships, press, licensing, or future investment
+    conversations, contact JUKYVERSE Studios directly.
+  </p>
+  <a href="mailto:hello@yukiversestudios.com" className="email">
+    hello@yukiversestudios.com
+  </a>
+</section>
       <footer>
         © 2026 JUKYVERSE Studios. Built for cinematic music, emotional storytelling, and world creation.
       </footer>
