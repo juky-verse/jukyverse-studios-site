@@ -31,7 +31,22 @@ const releases = [
     link: "https://youtu.be/B1TxgMgV-k0"
   },
 ];
+<section className="studio-section proof-section">
+  <p className="eyebrow">Audience Response</p>
+  <h2>Music tested through real emotional connection.</h2>
+  <p>
+    JUKYVERSE releases are shaped by how they land — replays, sing-along moments,
+    visual engagement, emotional reactions, and the quiet signs that a song truly connected.
+  </p>
 
+  <div className="proof-card">
+    <p>
+      “Immediate sing-along response. Strong emotional glow. Multiple replays.
+      The final chorus lift landed beautifully.”
+    </p>
+    <span>— Still Choosing You landing report</span>
+  </div>
+</section>
 function Button({ children, href, variant = "primary" }) {
   const className = variant === "primary" ? "button primary" : "button secondary";
   return (
