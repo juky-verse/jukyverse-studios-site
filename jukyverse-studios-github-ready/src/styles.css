@@ -108,3 +108,19 @@ footer { padding: 28px; text-align: center; color: rgba(255,255,255,.45); border
   color: #ffd3e0;
   font-weight: 800;
 }
+.release-card,
+.proof-card,
+.feature-card {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.release-card:hover,
+.proof-card:hover,
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 80px rgba(236,72,153,0.18);
+  border-color: rgba(255,255,255,0.22);
+}
