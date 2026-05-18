@@ -10,25 +10,25 @@ const releases = [
     title: "Deep In My Heart",
     image: "/assets/images/releases/deep-in-my-heart.png",
     description: "A celestial love song about connection that transcends distance.",
-    link: linktree,
+    link: "https://youtu.be/20_GdDdobAM"
   },
   {
     title: "Dreams Come True",
     image: "/assets/images/releases/dreams-come-true.jpg",
     description: "A hopeful romantic anthem about believing in impossible love.",
-    link: linktree,
+    link: "https://youtu.be/Ivsi5JH-l3A"
   },
   {
     title: "Love At First Sight",
     image: "/assets/images/releases/love-at-first-sight.jpg",
     description: "A cinematic story about the moment everything changes forever.",
-    link: linktree,
+    link: "https://youtu.be/-sXiT7-RTAw"
   },
   {
     title: "Revive",
     image: "/assets/images/releases/revive.jpg",
     description: "A song about rediscovering warmth, healing, and emotional rebirth.",
-    link: linktree,
+    link: "https://youtu.be/B1TxgMgV-k0"
   },
 ];
 
