@@ -4,7 +4,7 @@ import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-r
 import { motion } from "framer-motion";
 
 const linktree = "https://linktr.ee/Jukyversestudios";
-const [page, setPage] = useState("home");
+
 const contactEmail = "hello@yukiversestudios.com";
 
 const releases = [
@@ -79,6 +79,7 @@ function InfoCard({ icon: Icon, title, children }) {
 }
 
 export default function App() {
+  const [page, setPage] = useState("home");
   return (
     <main>
       <nav className="nav">
