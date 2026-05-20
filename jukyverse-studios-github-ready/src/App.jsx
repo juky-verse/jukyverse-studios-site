@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+
 import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const linktree = "https://linktr.ee/Jukyversestudios";
+const [page, setPage] = useState("home");
 const contactEmail = "hello@yukiversestudios.com";
 
 const releases = [
