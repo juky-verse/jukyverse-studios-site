@@ -191,7 +191,7 @@ export default function App() {
           JUKYVERSE Studios creates cinematic emotional experiences through music, story, and visual atmosphere.
           Blending bilingual songwriting, cinematic presentation, and emotionally driven storytelling, each release is designed to feel immersive, intimate, and timeless.
         </SectionTitle>
-      </section>
+
 
 </section>
       <section id="contact" className="section contact">
