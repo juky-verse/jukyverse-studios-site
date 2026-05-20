@@ -105,15 +105,17 @@ export default function App() {
           transition={{ duration: 0.8 }}
         >
           <div className="hero-copy">
-            <p className="eyebrow">Featured Cinematic Release</p>
-            <h1>Still Choosing You</h1>
-            <p className="lead">
-              A cinematic emotional ballad about love that refuses to disappear even when distance,
-              uncertainty, and difficult moments try to pull two hearts apart.
-            </p>
+        <p className="eyebrow">
+  Emotional Stories • Cinematic Worlds • Human Connection
+</p>
+           <h1>
+  Welcome to the emotional universe of JUKYVERSE.
+</h1>
+           <p className="lead">
+  Music, visuals, cinematic storytelling, and emotional experiences designed to be felt — not just heard. JUKYVERSE Studios creates interconnected worlds built around romance, memory, longing, healing, and human connection.
+</p>
             <div className="quote">
-              “Sometimes love is not about perfection. Sometimes it is simply about waking up every day
-              and still choosing each other.”
+             “Every release is part of a larger emotional universe.”
             </div>
             <div className="button-row">
               <Button href="https://youtu.be/yCY5ZsqJSzQ">Experience the Release</Button>
