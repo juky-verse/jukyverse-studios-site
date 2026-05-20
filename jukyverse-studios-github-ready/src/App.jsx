@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 
 const linktree = "https://linktr.ee/Jukyversestudios";
 
-const contactEmail = "hello@yukiversestudios.com";
+const contactEmail = "hello@yukiversestudios.com";<button className="button primary" onClick={() => setPage("ttct")}>
+  Explore the Universe
+</button>
 
 const releases = [
   {
@@ -217,7 +219,9 @@ return (
             An expanding cinematic universe exploring love, memory, sacrifice, Displaced Realms,
             altered timelines, and the emotional cost of crossing between worlds.
           </p>
-         <Button href="#contact"> Explore The Universe </Button>
+        <button className="button primary" onClick={() => setPage("ttct")}>
+  Explore the Universe
+</button>
         </div>
         <div className="ttct-cards">
           <InfoCard icon={Globe2} title="Displaced Realms">
