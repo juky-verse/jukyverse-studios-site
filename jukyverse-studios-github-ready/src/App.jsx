@@ -192,53 +192,7 @@ export default function App() {
           Blending bilingual songwriting, cinematic presentation, and emotionally driven storytelling, each release is designed to feel immersive, intimate, and timeless.
         </SectionTitle>
       </section>
-<section className="studio-section">
-  <p className="eyebrow">Continue Exploring</p>
-  <h2>More cinematic releases from JUKYVERSE.</h2>
 
-  <div className="mini-grid">
-
-    <a
-      href="YOUR_DEEP_IN_MY_HEART_LINK"
-      target="_blank"
-      rel="noreferrer"
-      className="mini-card"
-    >
-      <img src="/deep-in-my-heart.png" alt="Deep In My Heart" />
-      <span>Deep In My Heart</span>
-    </a>
-
-    <a
-      href="YOUR_DREAMS_COME_TRUE_LINK"
-      target="_blank"
-      rel="noreferrer"
-      className="mini-card"
-    >
-      <img src="/dreams-come-true.jpg" alt="Dreams Come True" />
-      <span>Dreams Come True</span>
-    </a>
-
-    <a
-      href="YOUR_LOVE_AT_FIRST_SIGHT_LINK"
-      target="_blank"
-      rel="noreferrer"
-      className="mini-card"
-    >
-      <img src="/love-at-first-sight.jpg" alt="Love At First Sight" />
-      <span>Love At First Sight</span>
-    </a>
-
-    <a
-      href="YOUR_REVIVE_LINK"
-      target="_blank"
-      rel="noreferrer"
-      className="mini-card"
-    >
-      <img src="/revive.jpg" alt="Revive" />
-      <span>Revive</span>
-    </a>
-
-  </div>
 </section>
       <section id="contact" className="section contact">
         <div>
