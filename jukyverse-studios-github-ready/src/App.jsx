@@ -81,7 +81,7 @@ function InfoCard({ icon: Icon, title, children }) {
 
 export default function App() {
   const [page, setPage] = useState("home"); 
-  (
+  
    if (page === "ttct") {
     return (
       <main className="ttct-page">
