@@ -139,3 +139,38 @@ footer { padding: 28px; text-align: center; color: rgba(255,255,255,.45); border
   height: 100%;
   border: 0;
 }
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 24px;
+  margin-top: 42px;
+}
+
+.mini-card {
+  display: block;
+  text-decoration: none;
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  transition: all 0.35s ease;
+}
+
+.mini-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 80px rgba(236,72,153,0.18);
+}
+
+.mini-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  display: block;
+}
+
+.mini-card span {
+  display: block;
+  padding: 18px;
+  font-weight: 700;
+  color: white;
+}
