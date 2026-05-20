@@ -254,10 +254,9 @@ export default function App() {
 </section>
 <section id="contact" className="studio-section">
   <p className="eyebrow">Contact</p>
-  <h2>Commissions, collaborations, licensing, and investor inquiries.</h2>
+  <h2>Creative partnerships, licensing, commissions, and cinematic collaborations..</h2>
   <p>
-    For creative work, partnerships, press, licensing, or future investment
-    conversations, contact JUKYVERSE Studios directly.
+   For creative partnerships, soundtrack licensing, cinematic collaborations, press, or universe expansion opportunities, contact JUKYVERSE Studios directly..
   </p>
   <a href="mailto:hello@yukiversestudios.com" className="email">
     hello@yukiversestudios.com
