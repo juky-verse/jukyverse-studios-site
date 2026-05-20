@@ -176,7 +176,7 @@ export default function App() {
             An expanding cinematic universe exploring love, memory, sacrifice, Displaced Realms,
             altered timelines, and the emotional cost of crossing between worlds.
           </p>
-          <Button href="#ttct">Explore the Universe</Button>
+         <Button href="#contact">Follow the TTCT Journey</Button>
         </div>
         <div className="ttct-cards">
           <InfoCard icon={Globe2} title="Displaced Realms">
@@ -187,7 +187,23 @@ export default function App() {
           </InfoCard>
         </div>
       </section>
+<section id="ttct-details" className="studio-section">
+  <p className="eyebrow">TTCT Development Portal</p>
+  <h2>The journey begins here.</h2>
+  <p>
+    Through The Cracks of Time is the first cinematic universe from JUKYVERSE Studios,
+    built around love, memory, sacrifice, Displaced Realms, altered timelines, and
+    the emotional cost of crossing between worlds.
+  </p>
+  <p>
+    This portal will grow into the official home for teaser visuals, universe notes,
+    proof-of-concept materials, investor updates, and cinematic development logs.
+  </p>
 
+  <a href="#contact" className="button primary">
+    Contact JUKYVERSE About TTCT
+  </a>
+</section>
       <section id="about" className="section">
         <SectionTitle eyebrow="About the Studio" title="Built around emotion, cinema, and human connection.">
           JUKYVERSE Studios creates cinematic emotional experiences through music, story, and visual atmosphere.
