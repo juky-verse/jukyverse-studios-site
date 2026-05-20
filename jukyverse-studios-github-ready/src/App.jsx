@@ -78,9 +78,47 @@ function InfoCard({ icon: Icon, title, children }) {
   );
 }
 
+
 export default function App() {
-  const [page, setPage] = useState("home");
-  return (
+  const [page, setPage] = useState("home"); 
+  (
+   if (page === "ttct") {
+    return (
+      <main className="ttct-page">
+        <section className="hero">
+          <p className="eyebrow">TTCT Universe</p>
+          <h1>Through The Cracks of Time</h1>
+          <p className="lead">
+            A cinematic emotional universe exploring memory, sacrifice, Displaced Realms,
+            altered timelines, love beyond dimensions, and the emotional consequences of
+            crossing between worlds.
+          </p>
+
+          <div className="feature-grid">
+            <div className="feature-card">
+              <h2>Displaced Realms</h2>
+              <p>Worlds shifted into alternate dimensions without collapse, leaving echoes and consequences behind.</p>
+            </div>
+
+            <div className="feature-card">
+              <h2>Proof of Concept</h2>
+              <p>Music, visuals, audience response, and emotional storytelling are shaping the foundation.</p>
+            </div>
+
+            <div className="feature-card">
+              <h2>The Long-Term Vision</h2>
+              <p>A cinematic science fiction universe built for film, music, and interconnected worldbuilding.</p>
+            </div>
+          </div>
+
+          <button className="button primary" onClick={() => setPage("home")}>
+            Return to JUKYVERSE
+          </button>
+        </section>
+      </main>
+    );
+  }
+
     <main>
       <nav className="nav">
         <a className="brand" href="#top">
@@ -92,7 +130,7 @@ export default function App() {
         </a>
         <div className="nav-links">
           <a href="#music">Music</a>
-          <a href="#ttct">TTCT</a>
+         <button className="nav-link" onClick={() => setPage("ttct")}>TTCT</button>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </div>
