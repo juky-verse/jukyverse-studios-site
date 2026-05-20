@@ -176,7 +176,7 @@ export default function App() {
             An expanding cinematic universe exploring love, memory, sacrifice, Displaced Realms,
             altered timelines, and the emotional cost of crossing between worlds.
           </p>
-         <Button href="#contact">Follow the TTCT Journey</Button>
+         <Button href="#contact"> Explore The Universe </Button>
         </div>
         <div className="ttct-cards">
           <InfoCard icon={Globe2} title="Displaced Realms">
