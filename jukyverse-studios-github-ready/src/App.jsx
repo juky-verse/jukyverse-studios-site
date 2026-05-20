@@ -233,7 +233,22 @@ export default function App() {
     between worlds.
   </p>
 </section>
+<section id="still-choosing-you" className="studio-section">
+  <p className="eyebrow">Release Feature</p>
+  <h2>Still Choosing You</h2>
+  <p>
+    A cinematic emotional ballad about love that keeps choosing through distance,
+    uncertainty, and difficult moments.
+  </p>
 
+  <div className="video-wrap">
+    <iframe
+      src="https://www.youtube.com/embed/yCY5ZsqJSzQ"
+      title="Still Choosing You"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
 <section id="contact" className="studio-section">
   <p className="eyebrow">Contact</p>
   <h2>Commissions, collaborations, licensing, and investor inquiries.</h2>
