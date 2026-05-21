@@ -90,7 +90,13 @@ export default function App() {
         <section className="hero">
           <p className="eyebrow">TTCT Universe</p>
           <h1>Through The Cracks of Time</h1>
+       <img
+  src="/assets/images/releases/ttct-hero.jpg.JPG"
+  alt="Through The Cracks In Time"
+  className="ttct-hero-image"
+/>
           <p className="lead">
+        
             A cinematic emotional universe exploring memory, sacrifice, Displaced Realms,
             altered timelines, love beyond dimensions, and the emotional consequences of
             crossing between worlds.
