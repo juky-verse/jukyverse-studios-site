@@ -241,3 +241,26 @@ footer { padding: 28px; text-align: center; color: rgba(255,255,255,.45); border
 .ttct-page .button {
   margin-top: 40px;
 }
+.ttct-intro {
+  max-width: 900px;
+  margin: 4rem auto 5rem auto;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.ttct-quote {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-style: italic;
+  color: rgba(255,255,255,0.92);
+  margin-bottom: 2rem;
+  text-shadow: 0 0 18px rgba(180,220,255,0.18);
+}
+
+.ttct-story {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.72);
+  max-width: 760px;
+  margin: 0 auto;
+}
