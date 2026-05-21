@@ -88,8 +88,7 @@ export default function App() {
     return (
       <main className="ttct-page">
         <section className="hero">
-          <p className="eyebrow">TTCT Universe</p>
-          <h1>Through The Cracks of Time</h1>
+         
        <img
   src="/assets/images/releases/ttct-hero.jpg.JPG"
   alt="Through The Cracks In Time"
