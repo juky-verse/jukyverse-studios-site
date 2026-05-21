@@ -100,7 +100,18 @@ export default function App() {
             altered timelines, love beyond dimensions, and the emotional consequences of
             crossing between worlds.
           </p>
+<section className="ttct-intro">
+  <p className="ttct-quote">
+    “Some worlds do not collapse.
+    They become displaced.”
+  </p>
 
+  <p className="ttct-story">
+    Through The Cracks of Time is a cinematic science fiction universe
+    built around memory, sacrifice, love across dimensions, and the
+    emotional consequences of fractured timelines.
+  </p>
+</section>
           <div className="feature-grid">
             <div className="feature-card">
               <h2>Displaced Realms</h2>
