@@ -324,3 +324,36 @@ margin-right: auto;
 .ttct-intro::after {
   margin: 2.5rem auto 0;
 }
+.ttct-lore {
+  margin: 90px auto 40px;
+  text-align: center;
+}
+
+.ttct-lore h2 {
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  margin-bottom: 40px;
+}
+
+.lore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.lore-card {
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 30px;
+  text-align: left;
+}
+
+.lore-card h3 {
+  font-size: 1.45rem;
+  margin-bottom: 14px;
+}
+
+.lore-card p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.75;
+}
