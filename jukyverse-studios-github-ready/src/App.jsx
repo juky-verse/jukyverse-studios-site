@@ -112,6 +112,22 @@ export default function App() {
     emotional consequences of fractured timelines.
   </p>
 </section>
+<section className="ttct-teaser">
+  <p className="eyebrow">Cinematic Teaser</p>
+  <h2>Watch the universe begin to fracture.</h2>
+  <p>
+    A first glimpse into the emotional scale of TTCT — where love, memory,
+    and sacrifice collide with worlds that were never meant to separate.
+  </p>
+
+  <div className="teaser-frame">
+    <iframe
+      src="https://www.youtube.com/embed/-hdll-gn6gU"
+      title="Through The Cracks of Time teaser"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
           <div className="feature-grid">
             <div className="feature-card">
               <h2>Displaced Realms</h2>
