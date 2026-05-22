@@ -209,6 +209,9 @@ footer { padding: 28px; text-align: center; color: rgba(255,255,255,.45); border
   font-size: 1.2rem;
   line-height: 1.8;
   max-width: 950px;
+  text-align: center;
+margin-left: auto;
+margin-right: auto;
   color: rgba(255,255,255,0.82);
   margin-bottom: 50px;
 }
