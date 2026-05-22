@@ -321,7 +321,6 @@ margin-right: auto;
   transition: all 0.35s ease;
 }
 
-.lore-card:hover {
  .lore-card:hover {
   transform: translateY(-10px) scale(1.02);
   border-color: rgba(180,220,255,0.35);
