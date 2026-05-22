@@ -147,17 +147,17 @@ export default function App() {
 </section>
           <div className="ttct-divider"></div>
           <div className="feature-grid">
-           <div className="feature-card reveal">
+         <div className="feature-card reveal delay-1">
               <h2>Displaced Realms</h2>
               <p>Worlds shifted into alternate dimensions without collapse, leaving echoes and consequences behind.</p>
             </div>
 
-           <div className="feature-card reveal">
+          <div className="feature-card reveal delay-2">
               <h2>Proof of Concept</h2>
               <p>Music, visuals, audience response, and emotional storytelling are shaping the foundation.</p>
             </div>
 
-            <div className="feature-card reveal">
+           <div className="feature-card reveal delay-3">
               <h2>The Long-Term Vision</h2>
               <p>A cinematic science fiction universe built for film, music, and interconnected worldbuilding.</p>
             </div>
@@ -168,7 +168,7 @@ export default function App() {
   <h2>The first echoes of TTCT.</h2>
 
   <div className="lore-grid">
-    <div className="lore-card reveal">
+   <div className="lore-card reveal delay-1">
       <h3>The Echo of the Queen</h3>
       <p>
         A presence felt across fractured timelines — neither fully alive,
@@ -176,7 +176,7 @@ export default function App() {
       </p>
     </div>
 
-    <div className="lore-card reveal">
+  <div className="lore-card reveal delay-2">
       <h3>The Wanderer</h3>
       <p>
         A man displaced between realities, searching through collapsing worlds
@@ -184,7 +184,7 @@ export default function App() {
       </p>
     </div>
 
-    <div className="lore-card reveal">
+   <div className="lore-card reveal delay-3">
       <h3>The Realms</h3>
       <p>
         Worlds shifted out of alignment, surviving in parallel dimensions
