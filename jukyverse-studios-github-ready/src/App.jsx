@@ -177,7 +177,16 @@ export default function App() {
   </div>
 </section>
 
-          
+<section className="ttct-cta">
+  <h2>Interested in the TTCT Universe?</h2>
+  <p>
+    For cinematic partnerships, licensing, soundtrack opportunities,
+    or early investment conversations, contact JUKYVERSE Studios.
+  </p>
+  <a className="button primary" href="mailto:hello@yukiversestudios.com">
+    Contact JUKYVERSE Studios
+  </a>
+</section>          
           <button className="button primary" onClick={() => setPage("home")}>
             Return to JUKYVERSE
           </button>
