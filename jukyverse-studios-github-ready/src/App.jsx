@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -83,7 +83,24 @@ function InfoCard({ icon: Icon, title, children }) {
 
 export default function App() {
   const [page, setPage] = useState("home"); 
-  
+  useEffect(() => {
+  const reveals = document.querySelectorAll(".reveal");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  reveals.forEach(el => observer.observe(el));
+
+  return () => observer.disconnect();
+}, [page]);
    if (page === "ttct") {
     return (
       <main className="ttct-page">
@@ -130,17 +147,17 @@ export default function App() {
 </section>
           <div className="ttct-divider"></div>
           <div className="feature-grid">
-            <div className="feature-card">
+           <div className="feature-card reveal">
               <h2>Displaced Realms</h2>
               <p>Worlds shifted into alternate dimensions without collapse, leaving echoes and consequences behind.</p>
             </div>
 
-            <div className="feature-card">
+           <div className="feature-card reveal">
               <h2>Proof of Concept</h2>
               <p>Music, visuals, audience response, and emotional storytelling are shaping the foundation.</p>
             </div>
 
-            <div className="feature-card">
+            <div className="feature-card reveal">
               <h2>The Long-Term Vision</h2>
               <p>A cinematic science fiction universe built for film, music, and interconnected worldbuilding.</p>
             </div>
@@ -151,7 +168,7 @@ export default function App() {
   <h2>The first echoes of TTCT.</h2>
 
   <div className="lore-grid">
-    <div className="lore-card">
+    <div className="lore-card reveal">
       <h3>The Echo of the Queen</h3>
       <p>
         A presence felt across fractured timelines — neither fully alive,
@@ -159,7 +176,7 @@ export default function App() {
       </p>
     </div>
 
-    <div className="lore-card">
+    <div className="lore-card reveal">
       <h3>The Wanderer</h3>
       <p>
         A man displaced between realities, searching through collapsing worlds
@@ -167,7 +184,7 @@ export default function App() {
       </p>
     </div>
 
-    <div className="lore-card">
+    <div className="lore-card reveal">
       <h3>The Realms</h3>
       <p>
         Worlds shifted out of alignment, surviving in parallel dimensions
@@ -177,7 +194,7 @@ export default function App() {
   </div>
 </section>
 
-<section className="ttct-cta">
+<section className="ttct-cta reveal">
   <h2>Interested in the TTCT Universe?</h2>
   <p>
     For cinematic partnerships, licensing, soundtrack opportunities,
