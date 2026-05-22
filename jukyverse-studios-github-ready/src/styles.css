@@ -360,3 +360,22 @@ margin-right: auto;
 }
 
 }
+.ttct-page .lore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.ttct-page .lore-card {
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 30px;
+  text-align: left;
+}
+
+@media (max-width: 900px) {
+  .ttct-page .lore-grid {
+    grid-template-columns: 1fr;
+  }
+}
