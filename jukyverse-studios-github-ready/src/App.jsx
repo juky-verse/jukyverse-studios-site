@@ -145,7 +145,38 @@ export default function App() {
               <p>A cinematic science fiction universe built for film, music, and interconnected worldbuilding.</p>
             </div>
           </div>
+<section className="ttct-lore">
+  <p className="eyebrow">Universe Lore</p>
+  <h2>The first echoes of TTCT.</h2>
 
+  <div className="lore-grid">
+    <div className="lore-card">
+      <h3>The Echo of the Queen</h3>
+      <p>
+        A presence felt across fractured timelines — neither fully alive,
+        nor fully lost. Her voice becomes the first signal through the cracks.
+      </p>
+    </div>
+
+    <div className="lore-card">
+      <h3>The Wanderer</h3>
+      <p>
+        A man displaced between realities, searching through collapsing worlds
+        for the voice that still calls to him.
+      </p>
+    </div>
+
+    <div className="lore-card">
+      <h3>The Realms</h3>
+      <p>
+        Worlds shifted out of alignment, surviving in parallel dimensions
+        while memory, time, and identity begin to fracture.
+      </p>
+    </div>
+  </div>
+</section>
+
+          
           <button className="button primary" onClick={() => setPage("home")}>
             Return to JUKYVERSE
           </button>
