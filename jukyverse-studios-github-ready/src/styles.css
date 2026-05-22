@@ -457,3 +457,10 @@ margin-right: auto;
 .delay-3 {
   transition-delay: 0.4s;
 }
+.ttct-page .feature-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.ttct-page .lore-card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
