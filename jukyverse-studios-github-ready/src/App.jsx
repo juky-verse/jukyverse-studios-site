@@ -128,6 +128,7 @@ export default function App() {
     ></iframe>
   </div>
 </section>
+          <div className="ttct-divider"></div>
           <div className="feature-grid">
             <div className="feature-card">
               <h2>Displaced Realms</h2>
