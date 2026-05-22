@@ -310,7 +310,22 @@ margin-right: auto;
     0 24px 70px rgba(0, 0, 0, 0.45),
     0 0 45px rgba(120, 180, 255, 0.14);
 }
+.lore-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
 
+.lore-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(180,220,255,0.28);
+  box-shadow:
+    0 24px 70px rgba(0,0,0,0.45),
+    0 0 45px rgba(120,180,255,0.14);
+}
+
+.ttct-lore .eyebrow,
+.ttct-lore h2 {
+  text-align: center;
+}
 .ttct-intro::before,
 .ttct-intro::after {
   content: "";
