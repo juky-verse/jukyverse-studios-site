@@ -145,6 +145,7 @@ export default function App() {
               <p>A cinematic science fiction universe built for film, music, and interconnected worldbuilding.</p>
             </div>
           </div>
+          <div className="ttct-divider"></div>
 <section className="ttct-lore">
   <p className="eyebrow">Universe Lore</p>
   <h2>The first echoes of TTCT.</h2>
