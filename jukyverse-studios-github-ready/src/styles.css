@@ -264,3 +264,28 @@ footer { padding: 28px; text-align: center; color: rgba(255,255,255,.45); border
   max-width: 760px;
   margin: 0 auto;
 }
+.feature-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(180, 220, 255, 0.28);
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.45),
+    0 0 45px rgba(120, 180, 255, 0.14);
+}
+
+.ttct-intro::before,
+.ttct-intro::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 1px;
+  margin: 0 auto 2.5rem;
+  background: linear-gradient(90deg, transparent, rgba(180,220,255,0.55), transparent);
+}
+
+.ttct-intro::after {
+  margin: 2.5rem auto 0;
+}
