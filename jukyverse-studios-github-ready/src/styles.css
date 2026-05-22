@@ -320,10 +320,6 @@ margin-right: auto;
   margin: 0 auto 2.5rem;
   background: linear-gradient(90deg, transparent, rgba(180,220,255,0.55), transparent);
 }
-
-.ttct-intro::after {
-  margin: 2.5rem auto 0;
-}
 .ttct-lore {
   margin: 90px auto 40px;
   text-align: center;
@@ -356,4 +352,9 @@ margin-right: auto;
 .lore-card p {
   color: rgba(255,255,255,0.72);
   line-height: 1.75;
+}
+.ttct-intro::after {
+  margin: 2.5rem auto 0;
+}
+
 }
