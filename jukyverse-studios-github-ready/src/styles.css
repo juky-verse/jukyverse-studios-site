@@ -321,7 +321,9 @@ margin-right: auto;
   background: linear-gradient(90deg, transparent, rgba(180,220,255,0.55), transparent);
 }
 .ttct-lore {
+ max-width: 1400px;
   margin: 90px auto 40px;
+  padding: 0 40px;
   text-align: center;
 }
 
