@@ -244,7 +244,7 @@ export default function App() {
           <div className="landing-report-grid">
 
             {/* CARD 1 */}
-            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+          <div className="landing-report-card">
 
               <img
                 src="/assets/images/releases/deep-in-my-heart.png"
@@ -287,7 +287,7 @@ export default function App() {
 
 
             {/* CARD 2 */}
-            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+         <div className="landing-report-card">
 
               <img
                 src="/assets/images/releases/dreams-come-true.jpg"
@@ -330,7 +330,7 @@ export default function App() {
 
 
             {/* CARD 3 */}
-            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+          <div className="landing-report-card">
 
               <img
                 src="/assets/images/releases/love-at-first-sight.jpg"
