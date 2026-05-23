@@ -247,18 +247,21 @@ export default function App() {
 
             {/* CARD 1 */}
           <div className="landing-report-card">
+<img
+  src="/assets/images/releases/deep-in-my-heart.png"
+  alt="Deep In My Heart"
+  className="landing-report-image"
+/>
 
-              <img
-                src="/assets/images/releases/deep-in-my-heart.png"
-                alt="Deep In My Heart"
-                <span className="validation-status">Validated Signal Set</span>
+<span className="validation-status">
+  Validated Signal Set
+</span>
 
 <div className="signal-tags">
   <span className="signal-tag">High Replay</span>
   <span className="signal-tag">Emotional Retention</span>
   <span className="signal-tag">Livestream Tested</span>
 </div>
-              />
 
               <div className="p-8">
 
@@ -300,6 +303,9 @@ export default function App() {
               <img
                 src="/assets/images/releases/dreams-come-true.jpg"
                 alt="Dreams Come True"
+                  className="landing-report-image"
+/>
+
                <span className="validation-status">Validated Signal Set</span>
 
 <div className="signal-tags">
@@ -349,6 +355,9 @@ export default function App() {
               <img
                 src="/assets/images/releases/love-at-first-sight.jpg"
                 alt="Love At First Sight"
+                  className="landing-report-image"
+/>
+
               <span className="validation-status">Validated Signal Set</span>
 
 <div className="signal-tags">
