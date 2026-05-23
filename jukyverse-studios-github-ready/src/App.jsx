@@ -162,8 +162,7 @@ export default function App() {
 <div className="ttct-divider"></div>
 
 <div className="feature-grid">
-</section>
-          <div className="ttct-divider"></div>
+
         
          <div className="feature-card reveal delay-1">
               <h2>Displaced Realms</h2>
