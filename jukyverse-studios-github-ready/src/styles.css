@@ -338,6 +338,28 @@ margin-right: auto;
   margin: 0 auto 2.5rem;
   background: linear-gradient(90deg, transparent, rgba(180,220,255,0.55), transparent);
 }
+  .ttct-premise {
+  max-width: 900px;
+  margin: 0 auto 80px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.ttct-premise h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin-bottom: 28px;
+  line-height: 1.1;
+}
+
+.ttct-premise p {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.82);
+}
+
+.ttct-premise .eyebrow {
+  margin-bottom: 18px;
+}
 .ttct-lore {
  max-width: 1400px;
   margin: 90px auto 40px;
