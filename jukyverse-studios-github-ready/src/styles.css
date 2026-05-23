@@ -515,3 +515,15 @@ margin-right: auto;
     grid-template-columns: 1fr;
   }
 }
+.landing-report-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  padding-bottom: 28px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.landing-report-card .p-8 {
+  padding: 26px;
+}
