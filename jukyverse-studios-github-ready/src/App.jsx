@@ -494,7 +494,7 @@ export default function App() {
   <div className="teaser-video-frame">
 
     <iframe
-      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+     src="https://www.youtube.com/embed/7WmONxxTw9c"
       title="TTCT Cinematic Teaser"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
