@@ -249,7 +249,7 @@ export default function App() {
               <img
                 src="/assets/images/releases/deep-in-my-heart.png"
                 alt="Deep In My Heart"
-                className="w-full h-64 object-cover"
+                className="landing-report-image"
               />
 
               <div className="p-8">
@@ -292,7 +292,7 @@ export default function App() {
               <img
                 src="/assets/images/releases/dreams-come-true.jpg"
                 alt="Dreams Come True"
-                className="w-full h-64 object-cover"
+                className="landing-report-image"
               />
 
               <div className="p-8">
@@ -335,7 +335,7 @@ export default function App() {
               <img
                 src="/assets/images/releases/love-at-first-sight.jpg"
                 alt="Love At First Sight"
-                className="w-full h-64 object-cover"
+               className="landing-report-image"
               />
 
               <div className="p-8">
