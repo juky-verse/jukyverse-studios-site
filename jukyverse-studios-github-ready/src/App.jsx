@@ -198,27 +198,29 @@ export default function App() {
 
   </div>
 
-  <div className="metrics-strip reveal">
-    <div>
-      <span>20+</span>
-      <p>Songs Released</p>
-    </div>
+<div className="metric-grid">
 
-    <div>
-      <span>500+</span>
-      <p>Cinematic Visuals</p>
-    </div>
-
-    <div>
-      <span>100+</span>
-      <p>Livestream Hours</p>
-    </div>
-
-    <div>
-      <span>Thousands</span>
-      <p>Audience Interactions</p>
-    </div>
+  <div className="metric-card">
+    <span>20+</span>
+    <p>Songs Released</p>
   </div>
+
+  <div className="metric-card">
+    <span>500+</span>
+    <p>Cinematic Visuals</p>
+  </div>
+
+  <div className="metric-card">
+    <span>100+</span>
+    <p>Livestream Hours</p>
+  </div>
+
+  <div className="metric-card">
+    <span>Thousands</span>
+    <p>Audience Interactions</p>
+  </div>
+
+</div>
 </section>
         {/* LANDING REPORTS SECTION */}
       <section className="py-32 px-6 bg-black">
