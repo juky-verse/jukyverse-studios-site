@@ -713,3 +713,11 @@ margin-right: auto;
   font-size: 0.94rem;
   line-height: 1.65;
 }
+.validation-status {
+  display: inline-block;
+  margin: 18px 0 14px;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.58);
+}
