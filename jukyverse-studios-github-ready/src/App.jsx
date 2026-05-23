@@ -220,6 +220,160 @@ export default function App() {
     </div>
   </div>
 </section>
+        {/* LANDING REPORTS SECTION */}
+      <section className="py-32 px-6 bg-black">
+        <div className="max-w-7xl mx-auto">
+
+          <div className="mb-20 text-center">
+            <p className="text-pink-300 uppercase tracking-[0.3em] text-sm mb-4">
+              Audience Validation Reports
+            </p>
+
+            <h2 className="text-5xl md:text-6xl font-bold mb-8">
+              Real-world emotional response drives expansion.
+            </h2>
+
+            <p className="text-gray-400 text-xl max-w-4xl mx-auto leading-relaxed">
+              Every release functions as both entertainment and live audience testing.
+              Emotional resonance, replay behavior, livestream interaction,
+              and audience retention help shape future TTCT expansion.
+            </p>
+          </div>
+
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            {/* CARD 1 */}
+            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+
+              <img
+                src="/assets/images/releases/deep-in-my-heart.png"
+                alt="Deep In My Heart"
+                className="w-full h-64 object-cover"
+              />
+
+              <div className="p-8">
+
+                <p className="text-pink-300 text-sm tracking-[0.25em] uppercase mb-4">
+                  Landing Report
+                </p>
+
+                <h3 className="text-3xl font-bold mb-4">
+                  Deep In My Heart
+                </h3>
+
+                <div className="space-y-3 text-gray-300 leading-relaxed">
+
+                  <p>
+                    • High replay behavior after livestream debut
+                  </p>
+
+                  <p>
+                    • Emotional audience retention during full runtime
+                  </p>
+
+                  <p>
+                    • Strong bilingual engagement response
+                  </p>
+
+                  <p>
+                    • Viewer comments referenced emotional warmth and intimacy
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+
+            {/* CARD 2 */}
+            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+
+              <img
+                src="/assets/images/releases/dreams-come-true.jpg"
+                alt="Dreams Come True"
+                className="w-full h-64 object-cover"
+              />
+
+              <div className="p-8">
+
+                <p className="text-pink-300 text-sm tracking-[0.25em] uppercase mb-4">
+                  Landing Report
+                </p>
+
+                <h3 className="text-3xl font-bold mb-4">
+                  Dreams Come True
+                </h3>
+
+                <div className="space-y-3 text-gray-300 leading-relaxed">
+
+                  <p>
+                    • Strong emotional hook recognition
+                  </p>
+
+                  <p>
+                    • Repeat listening behavior observed during testing
+                  </p>
+
+                  <p>
+                    • Audience responded strongly to cinematic visuals
+                  </p>
+
+                  <p>
+                    • High emotional continuity across bilingual format
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+
+            {/* CARD 3 */}
+            <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
+
+              <img
+                src="/assets/images/releases/love-at-first-sight.jpg"
+                alt="Love At First Sight"
+                className="w-full h-64 object-cover"
+              />
+
+              <div className="p-8">
+
+                <p className="text-pink-300 text-sm tracking-[0.25em] uppercase mb-4">
+                  Landing Report
+                </p>
+
+                <h3 className="text-3xl font-bold mb-4">
+                  Love At First Sight
+                </h3>
+
+                <div className="space-y-3 text-gray-300 leading-relaxed">
+
+                  <p>
+                    • Immediate audience emotional attachment
+                  </p>
+
+                  <p>
+                    • Strong visual-memory retention during livestream
+                  </p>
+
+                  <p>
+                    • High engagement with relationship-centered storytelling
+                  </p>
+
+                  <p>
+                    • Strong repeat interaction across release cycle
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>        
 <div className="feature-grid">
 
         
