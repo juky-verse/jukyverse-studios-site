@@ -477,6 +477,32 @@ export default function App() {
             </div>
           </div>
           <div className="ttct-divider"></div>
+          {/* CINEMATIC TEASER REEL */}
+<section className="teaser-section reveal">
+
+  <div className="teaser-header">
+    <p className="eyebrow">Cinematic Presentation</p>
+
+    <h2>Experience the emotional atmosphere of TTCT.</h2>
+
+    <p>
+      Music, visuals, emotional storytelling, and cinematic worldbuilding converge
+      into a unified teaser experience designed to introduce the tone of the universe.
+    </p>
+  </div>
+
+  <div className="teaser-video-frame">
+
+    <iframe
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      title="TTCT Cinematic Teaser"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+
+  </div>
+
+</section>
 <section className="ttct-lore">
   <p className="eyebrow">Universe Lore</p>
   <h2>The first echoes of TTCT.</h2>
