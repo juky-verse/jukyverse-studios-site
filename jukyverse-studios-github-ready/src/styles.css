@@ -528,3 +528,13 @@ margin-right: auto;
 .landing-report-card .p-8 {
   padding: 26px;
 }
+.landing-report-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 70px auto;
+}
+
+.landing-report-header p {
+  margin-left: auto;
+  margin-right: auto;
+}
