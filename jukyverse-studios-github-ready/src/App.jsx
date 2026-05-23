@@ -402,7 +402,62 @@ export default function App() {
 
           </div>
         </div>
-      </section>        
+      </section>    
+          {/* TTCT ECOSYSTEM ARCHITECTURE */}
+<section className="ecosystem-section reveal">
+  <div className="section-glow-divider"></div>
+
+  <div className="ecosystem-header">
+    <p className="eyebrow">Scalable IP Infrastructure</p>
+
+    <h2>TTCT is built as an expandable cinematic universe engine.</h2>
+
+    <p>
+      Music, emotional validation, audience response, cinematic visuals, character systems,
+      and story-world development operate together as one connected creative pipeline.
+    </p>
+  </div>
+
+  <div className="ecosystem-grid">
+
+    <div className="ecosystem-card">
+      <span>01</span>
+      <h3>Music as Emotional Entry Point</h3>
+      <p>Songs introduce emotional themes, relationship arcs, atmosphere, and audience connection before larger cinematic expansion.</p>
+    </div>
+
+    <div className="ecosystem-card">
+      <span>02</span>
+      <h3>Audience Validation Loop</h3>
+      <p>Livestream reactions, replay behavior, emotional retention, and bilingual engagement identify which concepts deserve expansion.</p>
+    </div>
+
+    <div className="ecosystem-card">
+      <span>03</span>
+      <h3>Cinematic Visual Development</h3>
+      <p>Validated emotional signals are translated into scene packs, lyric visuals, teaser frames, and universe-building imagery.</p>
+    </div>
+
+    <div className="ecosystem-card">
+      <span>04</span>
+      <h3>Story World Expansion</h3>
+      <p>Characters, realms, conflicts, and mythology grow from tested emotional foundations instead of unvalidated assumptions.</p>
+    </div>
+
+    <div className="ecosystem-card">
+      <span>05</span>
+      <h3>AI-Assisted Production Engine</h3>
+      <p>AI accelerates concept testing, music development, visual iteration, pitch materials, and scalable cinematic worldbuilding.</p>
+    </div>
+
+    <div className="ecosystem-card">
+      <span>06</span>
+      <h3>Investor-Ready IP Pipeline</h3>
+      <p>The result is a repeatable system for creating, testing, measuring, and scaling emotionally validated entertainment assets.</p>
+    </div>
+
+  </div>
+</section>
 <div className="feature-grid">
 
         
