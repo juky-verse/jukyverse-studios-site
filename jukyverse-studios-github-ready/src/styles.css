@@ -669,3 +669,47 @@ margin-right: auto;
     grid-template-columns: 1fr;
   }
 }
+.metric-grid {
+  margin-top: 46px;
+  margin-bottom: 85px;
+}
+
+.landing-report-header {
+  margin-top: 0;
+}
+
+.signal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 24px;
+}
+
+.signal-tag {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffc4d6;
+  border: 1px solid rgba(255, 196, 214, 0.22);
+  background: rgba(255, 196, 214, 0.055);
+  border-radius: 999px;
+  padding: 7px 11px;
+}
+
+.validation-status {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.58);
+}
+
+.landing-report-card h3 {
+  margin-bottom: 10px;
+}
+
+.landing-report-card .space-y-3 {
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
