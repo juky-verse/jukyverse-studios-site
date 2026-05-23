@@ -241,7 +241,7 @@ export default function App() {
           </div>
 
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="landing-report-grid">
 
             {/* CARD 1 */}
             <div className="bg-zinc-900/70 border border-zinc-800 rounded-3xl overflow-hidden hover:scale-[1.02] transition duration-300">
