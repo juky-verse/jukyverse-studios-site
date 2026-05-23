@@ -798,3 +798,50 @@ margin-right: auto;
     grid-template-columns: 1fr;
   }
 }
+/* =========================
+   CINEMATIC TEASER
+========================= */
+
+.teaser-section {
+  padding: 140px 6vw;
+  background:
+    radial-gradient(circle at center, rgba(255, 114, 168, 0.08), transparent 38%),
+    #040611;
+}
+
+.teaser-header {
+  max-width: 900px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.teaser-header h2 {
+  font-size: clamp(2.2rem, 5vw, 4.6rem);
+  line-height: 1.05;
+  margin: 18px 0 24px;
+}
+
+.teaser-header p {
+  color: rgba(255,255,255,0.72);
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.teaser-video-frame {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 40px 120px rgba(0,0,0,0.65),
+    0 0 80px rgba(255, 114, 168, 0.08);
+}
+
+.teaser-video-frame iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
