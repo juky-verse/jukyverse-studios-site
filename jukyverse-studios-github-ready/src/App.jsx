@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 
-import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react";<div className="feature-grid">
+import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion";
 
 const linktree = "https://linktr.ee/Jukyversestudios";
 
-const contactEmail = "hello@yukiversestudios.com";<button className="button primary" onClick={() => setPage("ttct")}>
-  Explore the Universe
-</button>
+const contactEmail = "hello@yukiversestudios.com"
+
 
 const releases = [
   {
