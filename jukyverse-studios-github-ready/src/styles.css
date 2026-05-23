@@ -504,3 +504,14 @@ margin-right: auto;
   object-fit: cover;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
+.landing-report-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+@media (max-width: 900px) {
+  .landing-report-grid {
+    grid-template-columns: 1fr;
+  }
+}
