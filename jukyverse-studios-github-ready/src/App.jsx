@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react";
+import { Music, Film, Sparkles, Heart, Globe2, Mail, ArrowRight } from "lucide-react";<div className="feature-grid">
 import { motion } from "framer-motion";
 
 const linktree = "https://linktr.ee/Jukyversestudios";
@@ -160,7 +160,67 @@ export default function App() {
 </section>
 
 <div className="ttct-divider"></div>
+<section className="validation-section reveal">
+  <p className="eyebrow">Audience Validation</p>
 
+  <h2>Emotional response is shaping TTCT in real time.</h2>
+
+  <p className="validation-intro">
+    TTCT concepts are not developed in isolation. Music, visuals, and emotional
+    storytelling are continuously tested through livestream interaction,
+    replay behavior, and audience response before larger expansion.
+  </p>
+
+  <div className="validation-grid">
+
+    <div className="validation-card reveal delay-1">
+      <h3>Repeat Engagement</h3>
+      <p>
+        Emotionally resonant songs and visuals generate repeated plays,
+        livestream revisits, and long-form audience retention.
+      </p>
+    </div>
+
+    <div className="validation-card reveal delay-2">
+      <h3>Bilingual Reach</h3>
+      <p>
+        English and Southern Vietnamese storytelling deepen emotional
+        connection across audiences and cultures.
+      </p>
+    </div>
+
+    <div className="validation-card reveal delay-3">
+      <h3>Live Testing</h3>
+      <p>
+        Concepts are validated publicly before expansion into larger
+        TTCT universe pillars and cinematic development.
+      </p>
+    </div>
+
+  </div>
+
+  <div className="metrics-strip reveal">
+    <div>
+      <span>20+</span>
+      <p>Songs Released</p>
+    </div>
+
+    <div>
+      <span>500+</span>
+      <p>Cinematic Visuals</p>
+    </div>
+
+    <div>
+      <span>100+</span>
+      <p>Livestream Hours</p>
+    </div>
+
+    <div>
+      <span>Thousands</span>
+      <p>Audience Interactions</p>
+    </div>
+  </div>
+</section>
 <div className="feature-grid">
 
         
