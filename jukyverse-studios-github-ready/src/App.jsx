@@ -313,7 +313,7 @@ export default function App() {
   <span className="signal-tag">Emotional Retention</span>
   <span className="signal-tag">Livestream Tested</span>
 </div>
-              />
+              
 
               <div className="p-8">
 
@@ -365,7 +365,7 @@ export default function App() {
   <span className="signal-tag">Emotional Retention</span>
   <span className="signal-tag">Livestream Tested</span>
 </div>
-              />
+          
 
               <div className="p-8">
 
