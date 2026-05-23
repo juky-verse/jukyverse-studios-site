@@ -224,7 +224,7 @@ export default function App() {
       <section className="py-32 px-6 bg-black">
         <div className="max-w-7xl mx-auto">
 
-          <div className="mb-20 text-center">
+         <div className="landing-report-header">
             <p className="text-pink-300 uppercase tracking-[0.3em] text-sm mb-4">
               Audience Validation Reports
             </p>
