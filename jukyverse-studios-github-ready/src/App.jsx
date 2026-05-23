@@ -144,9 +144,27 @@ export default function App() {
       allowFullScreen
     ></iframe>
   </div>
+  </section>
+
+<section className="ttct-premise reveal">
+  <p className="eyebrow">Story Premise</p>
+
+  <h2>When a kingdom burns, the voice survives.</h2>
+
+  <p>
+    As kingdoms burn beneath displaced skies, a faint voice survives across
+    fractured dimensions. Through memory, loss, and worlds shifted out of
+    alignment, a displaced wanderer follows the Echo of the Queen toward the
+    truth hidden within the cracks of time.
+  </p>
+</section>
+
+<div className="ttct-divider"></div>
+
+<div className="feature-grid">
 </section>
           <div className="ttct-divider"></div>
-          <div className="feature-grid">
+        
          <div className="feature-card reveal delay-1">
               <h2>Displaced Realms</h2>
               <p>Worlds shifted into alternate dimensions without collapse, leaving echoes and consequences behind.</p>
