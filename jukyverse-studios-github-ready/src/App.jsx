@@ -572,6 +572,11 @@ return (
 
       <section id="top" className="hero">
         <div className="hero-bg" />
+        <img
+  src="/assets/images/releases/jukyverse-logo.png"
+  alt="JUKYVERSE Studios Logo"
+  className="studio-logo"
+/>
         <motion.div
           className="hero-grid"
           initial={{ opacity: 0, y: 24 }}
