@@ -745,6 +745,52 @@ return (
   </div>
 </section>
 <section id="contact" className="studio-section">
+  {/* INVESTOR CTA SECTION */}
+<section className="investor-cta-section">
+  <div className="investor-cta-container">
+
+    <p className="eyebrow">
+      Investor Invitation
+    </p>
+
+    <h2>
+      Partner With Jukyverse Studios
+    </h2>
+
+    <p className="investor-cta-text">
+      TTCT is being developed as an emotionally validated cinematic universe
+      powered by music, audience testing, AI-assisted production, and scalable
+      worldbuilding systems.
+    </p>
+
+    <p className="investor-cta-text">
+      Early investment accelerates soundtrack production, cinematic teaser
+      development, character systems, lore expansion, audience acquisition,
+      and long-form film pipeline development.
+    </p>
+
+    <div className="investor-cta-buttons">
+
+      <a
+        href="mailto:hello@yukiversestudios.com"
+        className="primary-button"
+      >
+        Contact Jukyverse Studios
+      </a>
+
+      <a
+        href="https://linktr.ee/Jukyversestudios"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="secondary-button"
+      >
+        Explore Releases
+      </a>
+
+    </div>
+
+  </div>
+</section>
   <p className="eyebrow">Contact</p>
   <h2>Creative partnerships, licensing, commissions, and cinematic collaborations..</h2>
   <p>
