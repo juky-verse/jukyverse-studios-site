@@ -951,3 +951,18 @@ margin-right: auto;
   z-index: 2;
   filter: drop-shadow(0 0 18px rgba(255, 215, 140, 0.18));
 }
+.ttct-page .validation-section {
+  text-align: center;
+}
+
+.ttct-page .validation-section > p,
+.ttct-page .validation-section .validation-intro {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ttct-page .validation-section .eyebrow,
+.ttct-page .validation-section h2 {
+  text-align: center;
+}
