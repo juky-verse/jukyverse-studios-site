@@ -940,3 +940,13 @@ margin-right: auto;
     grid-template-columns: 1fr;
   }
 }
+.studio-logo {
+  width: 140px;
+  height: auto;
+  display: block;
+  margin: 0 auto 28px auto;
+  opacity: 0.96;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 0 18px rgba(255, 215, 140, 0.18));
+}
