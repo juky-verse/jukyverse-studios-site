@@ -845,3 +845,69 @@ margin-right: auto;
   border: none;
   display: block;
 }
+.investor-cta-section {
+  padding: 140px 24px;
+  background:
+    radial-gradient(circle at top, rgba(255, 180, 220, 0.08), transparent 45%),
+    #020617;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.investor-cta-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.investor-cta-container h2 {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 1.02;
+  font-weight: 800;
+  margin-bottom: 28px;
+  color: white;
+}
+
+.investor-cta-text {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.74);
+  margin-bottom: 24px;
+}
+
+.investor-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 16px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #ff7eb6, #ff4f9a);
+  color: white;
+  box-shadow: 0 0 30px rgba(255, 105, 180, 0.25);
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 40px rgba(255, 105, 180, 0.4);
+}
+
+.secondary-button {
+  border: 1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.88);
+  background: rgba(255,255,255,0.03);
+}
+
+.secondary-button:hover {
+  background: rgba(255,255,255,0.08);
+}
